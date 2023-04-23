@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ljolh1');
+  src:  url('fonts/icomoon.eot?ljolh1#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ljolh1') format('truetype'),
+    url('fonts/icomoon.woff?ljolh1') format('woff'),
+    url('fonts/icomoon.svg?ljolh1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat:before {
+  content: "\e91e";
+}
+.icon-bubbles:before {
+  content: "\e91e";
+}
+.icon-talk:before {
+  content: "\e91e";
+}
+.icon-message:before {
+  content: "\e91e";
+}
+.icon-conversation:before {
+  content: "\e91e";
+}
+.icon-ruler:before {
+  content: "\e904";
+}
+.icon-pencil:before {
+  content: "\e904";
+}
+.icon-design:before {
+  content: "\e904";
+}
+.icon-document-edit:before {
+  content: "\e914";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-mongodb:before {
+  content: "\e90f";
+}
+.icon-postgresql:before {
+  content: "\e91a";
+}
+.icon-docker:before {
+  content: "\e91b";
+}
+.icon-tailwindcss:before {
+  content: "\e91c";
+}
+.icon-game-controller:before {
+  content: "\e919";
+}
+.icon-arrow-up:before {
+  content: "\e918";
+}
+.icon-document-file-sql:before {
+  content: "\e900";
+}
+.icon-html5:before {
+  content: "\e901";
+}
+.icon-node-dot-js:before {
+  content: "\e902";
+}
+.icon-typescript:before {
+  content: "\e903";
+}
+.icon-figma:before {
+  content: "\e91d";
+}
+.icon-bootstrap:before {
+  content: "\e905";
+}
+.icon-react:before {
+  content: "\e906";
+}
+.icon-javascript:before {
+  content: "\e907";
+}
+.icon-phone:before {
+  content: "\e908";
+}
+.icon-github1:before {
+  content: "\e909";
+}
+.icon-css3:before {
+  content: "\e90a";
+}
+.icon-html-five:before {
+  content: "\e90b";
+}
+.icon-close:before {
+  content: "\e90c";
+}
+.icon-menu:before {
+  content: "\e90d";
+}
+.icon-linkedin:before {
+  content: "\e90e";
+}
+.icon-whatsapp:before {
+  content: "\e910";
+}
+.icon-instagram:before {
+  content: "\e911";
+}
+.icon-arrow-up1:before {
+  content: "\e912";
+}
+.icon-calculator:before {
+  content: "\e913";
+}
+.icon-earth:before {
+  content: "\e915";
+}
+.icon-sass:before {
+  content: "\e916";
+}
+.icon-mail:before {
+  content: "\e917";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}

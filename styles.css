@@ -51,25 +51,49 @@ body{
   text-align: center;
 }
 
+.titleCard{
+  font: 500 1.5rem var(--title-font);
+  color: var(--title-color);
+  text-align: center;
+}
+
 .button {
   background: var(--color);
-background: -webkit-linear-gradient(to right, #111111,  var(--color));  
-background: linear-gradient(to right, #000, var(--color));
+  background: -webkit-linear-gradient(135deg, #000,  var(--color));  
+  background: linear-gradient(135deg, #000, var(--color));
 
   color: var(--text-color-light);
-  height: 3.5rem;
+  height: 2rem;
   display: inline-flex;
   align-items: center;
   padding: 0 2rem;
   border-radius: 0.4rem;
-  font: 500 1rem var(--body-font);
+  font: 500 0.75rem var(--body-font);
   transition: background 2s;
+  margin-top: 0.5rem;
 }
 
 .button:hover {
   background: var(--color);
   background: -webkit-linear-gradient(to right, var(--color),#111111);  
   background: linear-gradient(to right, var(--color), #000);
+}
+
+.section{
+  padding: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 8px;
 }
 
 #header {
@@ -216,20 +240,15 @@ nav.show div.icon-close {
 /*====  HOME ============================ */
 
 #home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   height: 100vh;
-  background: url(assets/images/home-1.jpg) no-repeat;
+  background: url(assets/images/home-2.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
   background-blend-mode: darken rgba(0, 0, 0, 0.7);
-}
-
-#home .container {
-  margin-top: 8rem;
-}
-
-#home .button {
-  margin-top: 3rem;
 }
 
 #home .text {
@@ -245,7 +264,7 @@ nav.show div.icon-close {
 
 #home .text h1 {
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 5.5rem;
   letter-spacing: 0.2rem;
 }
 
@@ -267,8 +286,8 @@ nav.show div.icon-close {
 
 .arrow span {
   display: block;
-  width: 7vw;
-  height: 7vw;
+  width: 2rem;
+  height: 2rem;
   border-bottom: 5px solid #f00;
   border-right: 5px solid #f00;
   transform: rotate(45deg);
@@ -296,4 +315,62 @@ nav.show div.icon-close {
       opacity: 0;
       transform: rotate(45deg) translate(20px, 20px);
   }
+}
+
+#about{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+#about .container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#about .container img{
+  clip-path: circle();
+  height: 20rem;
+}
+
+#about .content{
+  gap: 3rem;
+}
+/*============  Skills  ===========*/
+
+.skill-cards{
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background: var(--color);
+  background: -webkit-linear-gradient(180deg, var(--color),#111111);  
+  background: linear-gradient(180deg, #0000, #0000,var(--color));
+  padding: 2rem 2rem; 
+  text-align: center;
+  border-radius: 5px;
+  transition: all 1s;
+  width: 18rem;
+  height: 18rem;
+}
+
+
+
+.skill-card img{
+  width: 5rem;
+  height: 5rem;
+}
+
+.colorSpan{
+  color: var(--color);
 }

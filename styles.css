@@ -251,7 +251,8 @@ nav.show div.icon-close {
 
 #home .text p {
   color: #cecece;
-  font-size: 1.55rem;
+  font-size: 1rem;
+  font-family: var(--body-font);
   text-align: center;
   margin: auto;
 }

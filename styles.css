@@ -374,3 +374,9 @@ nav.show div.icon-close {
 .colorSpan{
   color: var(--color);
 }
+
+@media (max-width: 768px) {
+  html{
+    font-size: 87.5%;
+  }
+}

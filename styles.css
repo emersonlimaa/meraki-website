@@ -157,7 +157,7 @@ nav ul li a::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: rgba(103, 16, 242, 0.185);
+  background: var(--color);
 
   position: absolute;
   left: 0;
@@ -246,7 +246,7 @@ nav.show div.icon-close {
   align-items: center;
   overflow: hidden;
   height: 100vh;
-  background: url(assets/images/home-2.jpg) no-repeat;
+  background: url(assets/bg-video.mp4) no-repeat;
   background-position: center center;
   background-size: cover;
   background-blend-mode: darken rgba(0, 0, 0, 0.7);
@@ -275,6 +275,18 @@ nav.show div.icon-close {
   font-family: var(--body-font);
   text-align: center;
   margin: auto;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .arrow {

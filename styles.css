@@ -426,6 +426,6 @@ nav.show div.icon-close {
   background-color: var(--body-color);
 }
 
-.article-cards h1{
-  margin-top: 1rem;
+.article-cards {
+  padding: 3rem;
 }

@@ -421,11 +421,27 @@ nav.show div.icon-close {
 }
 
 #articles{
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: var(--body-color);
 }
 
 .article-cards {
   padding: 3rem;
+}
+
+.article-cards .container{
+  display: flex;
+  gap: 1rem;
+  margin: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-card{
+  width: 20rem;
+  height: 25rem;
+  background-color: #cecece;
+  border-radius: 10px;
 }

@@ -444,4 +444,42 @@ nav.show div.icon-close {
   height: 25rem;
   background-color: #cecece;
   border-radius: 10px;
+  display: flex;
+  position: relative;
+}
+
+.article-card .text{
+  display: none;
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-card:hover .text{
+  display: visible;
+}
+
+
+
+.article-card:nth-child(1){
+  background-image: url(assets/images/home-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-card:nth-child(2){
+  background-image: url(assets/images/home-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-card:nth-child(3){
+  background-image: url(assets/images/home-3.avif);
+  background-size: cover;
+  background-position: center;
 }
